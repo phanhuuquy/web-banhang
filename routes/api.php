@@ -116,3 +116,4 @@ Route::get('/danh-gia', function() {
 Route::get('/danh-gia/{id}', function($id) {
     return DB::table('danh_gia')->where('id_sanpham', $id)->get();
 });
+//duy
