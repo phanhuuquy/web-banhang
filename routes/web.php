@@ -98,3 +98,4 @@ Route::get('/admin/donhang', [DonHangController::class, 'show']);
 Route::get('/admin/donhang/xoa/{id}', [DonHangController::class, 'destroy']);
 Route::get('/admin/donhang/{id}', [DonHangController::class, 'edit'])->name('order.detail');
 Route::get('/admin/donhang/duyet/{id}', [DonHangController::class, 'update']);
+//duy
